@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sxc.ebridge">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity android:name=".admin.ViewAllStaffActivity"></activity>
+        <activity android:name=".admin.UpdateStaffRecordActivity" />
+        <activity android:name=".admin.AddStaffRecordActivity" />
+        <activity android:name=".activities.SignUpActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".admin.ViewStudentSingleRecordActivity" />
+        <activity android:name=".admin.ViewAllStudentsActivity" />
+        <activity android:name=".admin.UpdateStudentRecordActivity" />
+        <activity android:name=".admin.AddStudentRecordActivity" />
+        <activity android:name=".admin.AdminHomeActivity" />
+        <activity android:name=".activities.BottomBarActivity" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
